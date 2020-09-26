@@ -111,6 +111,7 @@ function draw() {
     score = score+500;
     particle = null;
   }
+    }
 
   if(particle.position.x>301 && particle.position.x<600){
     score = score+100;
